@@ -1,0 +1,121 @@
+/* Less Framework 4 with 16/24 type presets
+
+/* Default Layout: 992px */
+
+    .structure{width:1040px;}
+    .contentLeft{width:750px;}
+    .productItems{width: 235px;}
+    .contentRight{width:250px;}
+    .brand{width: 115px;}
+    .icon{width: 130px;}
+    .locationMap>iframe,.footerTop,.footerBottom{width:1020px;}
+    .facebook,.fBox{width:700px;}
+    .flicker,.flBox{width:300px;}
+    .flBoxPic{width: 94px;}
+    .contactAddress>.first{width: 100px;}
+    .mobile_menu{display: none;}
+
+/* Tablet Layout: 768px */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .structure{width:750px;}
+    .mainSlider img{height:350px;}
+    .contentLeft {width: 500px;}
+    .contentRight {width: 210px;}
+    .brand {margin: 3px 15px;width: 180px;}
+    .icon{left:44%;}
+    .locationMap>iframe,.footerTop,.footerBottom{width:750px;margin:0;}
+    .facebook, .fBox {width: 430px;}
+    .footerBottomLeft{padding-left:5px;}
+    .footerBottomRight{padding-right:5px;}
+    .contactAddress .first {width: 88px;}
+    .mail input[type="email"], .mail input[type="text"],.mail textarea{width:70%;}
+    .mobile_menu{display: none;}
+    
+}
+
+
+
+/* Wide Mobile Layout: 480px */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .structure{width:450px;}
+    .headerLeft{width:40%;}
+    .headerRight{width:50%;}
+    .mainSlider img{height:300px;}
+    .contentLeft {width: 450px;margin:20px 0 0;}
+    .productItems {width: 205px;}
+    .productItems:nth-child(1),.productItems:nth-child(4) {margin-left: 10px;}
+    .productItems:nth-child(3), .productItems:nth-child(6) {margin-right: 10px;}
+    .contentRight {margin-left: 10px;width: 430px;}
+    .brand {margin: 8px 13px;width: 186px;height:60px;}
+    .brand img {height: 60px;}
+    .icon{left:35%;}
+    .locationMap > iframe, .footerTop, .footerBottom {margin: 0;width: 450px;}
+    .footerTop{height:auto;}
+    .facebook, .fBox,.flicker, .flBox {margin-right: 0;width: 440px;}
+    .facebook{margin:0 5px 20px;}
+    .flicker{margin:0 5px;height:auto;}
+    .flBoxPic {width: 140px;height: 90px;}
+    .footerBottom{height:auto;}
+    .footerBottomCenter {float: right;margin: 0;}
+    .footerBottomCenter ul li a{padding:0 5px;}
+    .footerBottomLeft{padding-left:5px;}
+    .footerBottomRight{padding-right:5px;margin-top:10px;}
+    .menuArea{display: none;}
+    .mobile_menu{display: block;}
+    .contactAddress .first{width:88px;font-weight: normal;}
+    .mail{width:430px;margin:0 10px 20px;}
+    .mail input[type="email"], .mail input[type="text"],.mail textarea{width:92%;}
+    
+    .menuArea{height:auto;}
+    .main_menu > ul > li{float: none;width:100%;margin:2px 0;}
+    .main_menu > ul > li > ul > li{width:430px;}
+    
+    
+    
+}
+
+
+
+/* Mobile Layout: 320px.*/
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+    .structure{width:300px;}
+    .headerLeft{margin-right: 0;width:100%;}
+    .mobile_menu{display: block;}
+    .menuArea{display: none;}
+    .headerRight {margin-top: 20px;width: 100%;}
+    .mailContact ul li{font-size: 12px;}
+    .link{margin-bottom: 10px;}
+    .mainSlider img{height:200px;}
+    .contentLeft {margin: 20px 0 0; width: 300px;}
+    .productItems:nth-child(1), .productItems:nth-child(4) {margin-left: 25px;}
+    .productItems {width: 250px;margin:10px 25px;}
+    .contentRight {width: 280px;margin-left:10px;}
+    .brand {margin: 3px 7px;width: 123px;}
+    .icon{display: none;}
+    .locationMap > iframe, .footerTop{width: 300px;}
+    .locationMap > iframe{margin: 0;}
+    .facebook, .fBox,.flicker, .flBox {margin-right: 0;width: 290px;}
+    .facebook{margin:0 5px 20px;}
+    .flicker{margin:0 5px;height:auto;}
+    .flBoxPic {width: 90px;}
+    .footerBottom{width:290px; padding:20px 5px;}
+    .footerBottomLeft {margin-bottom: 10px;text-align: center;width: 100%;}
+    .footerBottomCenter{margin:0 0 10px;}
+    .footerBottomCenter ul li a{padding:0 15px;}
+    .footerBottomRight {text-align: right;width: 100%;}
+    .contactAddress .first{width:88px;font-weight: normal;}
+    .mail{width:290px;margin:0 5px 20px;}
+    .mail input[type="email"], .mail input[type="text"],.mail textarea{width:92%;}
+    
+    
+    .menuArea{height:auto;}
+    .main_menu > ul > li{float: none;width:100%;margin:2px 0;}
+    .main_menu > ul > li > ul > li{width:280px;}
+    
+    
+}
+
+          
